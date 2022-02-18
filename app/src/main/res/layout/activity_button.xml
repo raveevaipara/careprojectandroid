@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BMIBu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Button">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jj" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="154dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="137dp"
+        android:background="#0AFFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boy" />
+
+    <ImageButton
+        android:id="@+id/Gocame"
+        android:layout_width="152dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="32dp"
+        android:background="#0DFFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boy1" />
+
+    <ImageButton
+        android:id="@+id/Btnapi"
+        android:layout_width="133dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="280dp"
+        android:background="#12FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boy2" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="143dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="37dp"
+        android:background="#0FFFFFFF"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Gocame"
+        app:srcCompat="@drawable/boy3" />
+
+    <ImageButton
+        android:id="@+id/MapBtn"
+        android:layout_width="145dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="413dp"
+        android:background="#0AFFFFFF"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boy4" />
+
+    <ImageButton
+        android:id="@+id/yo"
+        android:layout_width="165dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="15dp"
+        android:background="#07FFFFFF"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boy5" />
+
+    <ImageButton
+        android:id="@+id/Wapman"
+        android:layout_width="79dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kokakora" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

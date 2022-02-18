@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">count</string>
+    <string name="access_token">sk.eyJ1IjoicmF2ZWVsb3ZlZG9jIiwiYSI6ImNrb3NjZGwzeDAwNTMyd3AzanlrZTRqazEifQ.3O2VP4KUtxdZR8PzdEk-aA</string>
+    <string name="start_navigating">Start Navigating</string>
+</resources>

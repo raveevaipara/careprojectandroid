@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cumshort"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ilove" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="52dp">
+
+        <Button
+            android:id="@+id/capture_image_btn"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="250dp"
+            android:drawableLeft="@drawable/ic_action_namecre"
+            android:text="CAPTURE"
+            android:textColor="#131010"
+            android:textStyle="bold"
+            app:backgroundTint="@color/redvit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="144dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="250dp"
+            android:drawableLeft="@drawable/ic_action_namesac"
+            android:text="SAVE"
+            android:textColor="#0C0808"
+            android:textStyle="bold"
+            app:backgroundTint="@color/redvit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="316dp"
+            android:layout_height="309dp"
+            android:layout_marginTop="80dp"
+            android:background="#00EAABAB"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_im"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
